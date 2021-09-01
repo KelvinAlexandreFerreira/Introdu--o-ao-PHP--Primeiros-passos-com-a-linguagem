@@ -26,3 +26,13 @@ Potência: **
 PHP possui tipos de dados como integer, double, string ou boolean (tipos primitivos)
 PHP descobre os tipos de variáveis dinamicamente (tipagem dinâmica)
 Utilizando gettype conseguimos descobrir o tipo de uma variável
+
+Nesta aula, aprendemos:
+
+Para concatenar uma string com uma outra variável usamos o . (ponto)
+Podemos definir uma string com aspas simples(') ou duplas(")
+Para interpretar um valor da variável ou caractere especial dentro da string devemos usar aspas duplas
+caracteres especias são:
+Nova linha: \n ou \r
+Tab: \t
+PHP possui uma constante para indicar uma quebra de linha: PHP_EOL
