@@ -11,10 +11,9 @@ if ($idade >= 18) {
     echo 'Pode entrar sozinho.' . PHP_EOL;
 } else if ($idade >= 16 && $numeroDePessoas > 1) {
     echo "Você só tem $idade anos, está acompanhado(a), então pode entrar." . PHP_EOL;
-} else {
+} else
     echo "Você só tem $idade anos. Você não pode entrar." . PHP_EOL;
-}
 
 echo PHP_EOL;
 
-echo "Adeus." . PHP_EOL;
+echo "Adeus!" . PHP_EOL;
